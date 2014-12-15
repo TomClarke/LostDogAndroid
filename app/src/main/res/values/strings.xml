@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LostDogs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_id">743178749051458</string>
+    <string name="title_activity_found">FoundActivity</string>
+
+</resources>
