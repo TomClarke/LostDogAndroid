@@ -58,10 +58,10 @@ public class Settings extends Activity {
         startActivity(intent);
     }
 
-    public void back(View view){
+    /*public void back(View view){
         Intent intent = new Intent(Settings.this, MainMenu.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
 
-    }
+    }*/
 }

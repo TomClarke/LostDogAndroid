@@ -24,9 +24,9 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class Login extends FragmentActivity {
+public class Login extends Activity {
 
-    private LoginFragment loginFragment;
+
     private Dialog progressDialog;
     private Button loginButton;
     static final String TAG = "LostDogs";
@@ -42,18 +42,6 @@ public class Login extends FragmentActivity {
 
         setContentView(R.layout.activity_login);
 
-
-        if (savedInstanceState == null) {
-            // Add the fragment on initial activity setup
-            loginFragment = new LoginFragment();
-
-            getSupportFragmentManager().beginTransaction()
-                    .add(android.R.id.content, loginFragment).commit();
-        } else {
-            // Or set the fragment from restored state info
-            loginFragment = (LoginFragment) getSupportFragmentManager()
-                    .findFragmentById(android.R.id.content);
-        }
 
 
 
